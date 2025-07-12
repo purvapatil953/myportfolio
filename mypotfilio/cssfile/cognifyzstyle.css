@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.project-section {
+    display: flex;
+    padding: 60px 10%;
+    background-color: #8ddfd9;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    font-size: 48px;
+    color: #427de3;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 350px;
+}
+
+.ref-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00a2ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.ref-button:hover {
+    background-color: #0051e6;
+}
+
+.image-grid {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    align-items: start;
+}
+
+.small-image {
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/ 4;
+}
+
+.large-image {
+    background-size: cover;
+    background-position: center;
+     aspect-ratio: 4/ 4;
+}
+
+.img1 {
+    background-image: url('../images/congnifyzimg1.JPG');
+}
+
+.img2 {
+    background-image: url('../images/congnifyzimg2.JPG');
+}
+
+.img3 {
+    background-image: url('../images/congnifyzimg3.jpeg');
+}
+
+@media(max-width: 900px) {
+    .project-section {
+        flex-direction: column;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .large-image {
+        grid-row: span 1;
+        aspect-ratio: 4 / 3;
+    }
+}

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    background: #33dbb6;
+     background: url('../images/background_skill.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+header {
+    background: #2dd2c7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #3c5abb;
+  font-weight: bold;
+}
+
+.process-heading {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 28px;
+    color: #e9dfdf;
+}
+
+.process-step {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.content h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.content p {
+    font-size: 15px;
+    color: #666;
+}
+
+.button-group {
+    margin-top: 12px;
+}
+
+.other-btn {
+    background-color: #34d5db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.other-btn:hover {
+    background-color: #e2e8ec;
+}

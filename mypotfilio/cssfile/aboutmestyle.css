@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dbe7e5;
+  color: #333;
+}
+
+.navbar {
+  background: #000;
+  color: #32b4a7;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.navbar nav a {
+  color:  #32b4a7;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.about-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.about-section h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.about-section .highlight {
+  color:  #32b4a7;
+}
+
+.about-section h2 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+}
+
+.image-container img {
+  width: 100%;
+  transform: rotate(-10deg);
+  border: 5px solid #47caba;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.image-container .thats-me {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  color: rgb(0, 109, 128);
+  font-family: 'Courier New', monospace;
+  transform: rotate(-5deg);
+}
+
+.text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.text a {
+  color: #4ca0af;
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.column {
+  width: 45%;
+}
+
+.column h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.icons img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.column ul li::before {
+  content: '+';
+  color: #46c1b4;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
